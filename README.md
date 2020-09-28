@@ -17,6 +17,8 @@ Cores: 8
 orcale dependencies: ojdbc7
 Java 8.
 
+Script to be executed in maven prompt for oracle connectivity and ojdbc7 requirements
+mvn install:install-file -Dfile=ojdbc7.jar  -DgroupId=com.oracle -DartifactId=ojdbc7 -Dversion=12.1.0.1 -Dpackaging=jar
 
 
 
